@@ -10,6 +10,7 @@
    - Declarative macros, traits make it hard to find implementation (local reasoning)
    - Error Handling sometimes cumbersome
    - panic-happy libraries
+   - Cannot integrate into badly-designed systems
  * No panic! Embedded rust.
  * A lifetime of pain
  * Borrow Checker War Stories
