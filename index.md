@@ -9,7 +9,7 @@
  * Why Rust Sucks
    - Declarative macros, traits make it hard to find implementation (local reasoning)
    - Error Handling sometimes cumbersome
-   - panic-happy libraries
+   - panic-happy libraries (FFI not supported, bloat/danger on no_std, panic not visible from outside, no_panic not really enforcable)
    - Cannot integrate into badly-designed systems
  * No panic! Embedded rust.
  * A lifetime of pain
