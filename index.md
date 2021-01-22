@@ -10,6 +10,7 @@
    - Declarative macros, traits make it hard to find implementation (local reasoning)
    - Error Handling sometimes cumbersome
    - panic-happy libraries (FFI not supported, bloat/danger on no_std, panic not visible from outside, no_panic not really enforcable, unit testing clunky (#[should_panic]~~, but where did it panic?~~ (can state required reason in should_panic attribute))
+   - round() and friends not in no_std
    - Cannot integrate into badly-designed systems
  * No panic! Embedded rust.
  * A lifetime of pain
